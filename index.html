@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="eldar.marketing — маркетинговое агентство. Реклама, разработка, аналитика. Получите персональное предложение за 5 минут.">
+  <meta name="keywords" content="маркетинг, реклама, SMM, SEO, разработка сайтов, лендинг, Яндекс.Директ, Google Ads">
+  <meta name="author" content="eldar.marketing">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="eldar.marketing — Маркетинговое агентство">
+  <meta property="og:description" content="Получите персональное предложение за 5 минут. Реклама, разработка, аналитика.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://eldar.marketing">
+  <meta property="og:locale" content="ru_RU">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="eldar.marketing — Маркетинговое агентство">
+  <meta name="twitter:description" content="Получите персональное предложение за 5 минут.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Preconnect to external resources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Preload critical font -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
+  
+  <!-- Critical CSS inline for above-the-fold content -->
+  <style>
+    /* Critical CSS - Above the fold */
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{font-size:16px}
+    body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6;color:#fff;background-color:#0a0a0a;-webkit-font-smoothing:antialiased}
+    .header{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.5rem 0;background-color:rgba(10,10,10,0.9);backdrop-filter:blur(10px)}
+    .container{width:100%;max-width:1200px;margin:0 auto;padding:0 1.5rem}
+    .header__inner{display:flex;align-items:center;justify-content:space-between}
+    .logo-text{font-size:1.25rem;font-weight:600;color:#fff;letter-spacing:-0.02em}
+    .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:4rem 0;padding-top:calc(4rem + 80px)}
+    .hero__content{text-align:center;max-width:700px;margin:0 auto}
+    .hero__title{font-size:2.25rem;font-weight:600;margin-bottom:1rem;letter-spacing:-0.02em}
+    .hero__subtitle{font-size:1.125rem;color:#9ca3af;margin-bottom:3rem}
+  </style>
+  
+  <!-- Main Styles - deferred loading -->
+  <link rel="stylesheet" href="styles/main.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="styles/main.css"></noscript>
+  
+  <title>eldar.marketing — Маркетинговое агентство</title>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="/" class="header__logo" aria-label="eldar.marketing - На главную">
+          <!-- iPhone Pro LIDAR Module - BEAST MODE -->
+          <div class="lidar-module" id="lidar-module">
+            <div class="lidar-module__body">
+              <!-- Outer glow ring -->
+              <div class="lidar-glow"></div>
+              
+              <!-- Main LIDAR eye -->
+              <div class="lidar-eye" id="lidar-eye">
+                <div class="lidar-eye__outer"></div>
+                <div class="lidar-eye__middle"></div>
+                <div class="lidar-eye__inner"></div>
+                <div class="lidar-eye__pupil" id="lidar-pupil"></div>
+                <div class="lidar-eye__reflection"></div>
+              </div>
+              
+              <!-- Flash array -->
+              <div class="lidar-flash-array">
+                <div class="lidar-flash" id="lidar-flash-1"></div>
+                <div class="lidar-flash" id="lidar-flash-2"></div>
+              </div>
+              
+              <!-- Secondary sensors -->
+              <div class="lidar-sensor lidar-sensor--tl"></div>
+              <div class="lidar-sensor lidar-sensor--br"></div>
+              
+              <!-- Scan beam container -->
+              <div class="lidar-beam-container" id="lidar-beams">
+                <svg class="lidar-beam-svg" viewBox="0 0 400 400" preserveAspectRatio="none">
+                  <defs>
+                    <linearGradient id="beamGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+                      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.8"/>
+                      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0"/>
+                    </linearGradient>
+                    <filter id="glow">
+                      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                      <feMerge>
+                        <feMergeNode in="coloredBlur"/>
+                        <feMergeNode in="SourceGraphic"/>
+                      </feMerge>
+                    </filter>
+                  </defs>
+                  <g id="beam-group" filter="url(#glow)">
+                    <!-- Beams will be generated by JS -->
+                  </g>
+                </svg>
+              </div>
+            </div>
+            
+            <!-- Particle field -->
+            <div class="lidar-particles" id="lidar-particles"></div>
+          </div>
+          <span class="logo-text">eldar<span class="logo-dot">.</span>marketing</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero__content">
+          
+          <!-- HERO LIDAR MODULE - Main showcase -->
+          <div class="hero-lidar" id="hero-lidar">
+            <div class="hero-lidar__glow"></div>
+            <div class="hero-lidar__body">
+              <!-- Main LIDAR eye -->
+              <div class="hero-lidar__eye" id="hero-lidar-eye">
+                <div class="hero-lidar__eye-outer"></div>
+                <div class="hero-lidar__eye-middle"></div>
+                <div class="hero-lidar__eye-inner"></div>
+                <div class="hero-lidar__pupil" id="hero-lidar-pupil"></div>
+                <div class="hero-lidar__reflection"></div>
+              </div>
+              
+              <!-- Flash array -->
+              <div class="hero-lidar__flash-array">
+                <div class="hero-lidar__flash" id="hero-flash-1"></div>
+                <div class="hero-lidar__flash" id="hero-flash-2"></div>
+              </div>
+              
+              <!-- Secondary sensors -->
+              <div class="hero-lidar__sensor hero-lidar__sensor--bl"></div>
+              <div class="hero-lidar__sensor hero-lidar__sensor--br"></div>
+              
+              <!-- Beam container -->
+              <div class="hero-lidar__beams" id="hero-lidar-beams">
+                <svg class="hero-lidar__beam-svg" viewBox="0 0 600 600" preserveAspectRatio="none">
+                  <defs>
+                    <linearGradient id="heroBeamGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+                      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.9"/>
+                      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0"/>
+                    </linearGradient>
+                    <filter id="heroGlow">
+                      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                      <feMerge>
+                        <feMergeNode in="coloredBlur"/>
+                        <feMergeNode in="coloredBlur"/>
+                        <feMergeNode in="SourceGraphic"/>
+                      </feMerge>
+                    </filter>
+                  </defs>
+                  <g id="hero-beam-group" filter="url(#heroGlow)"></g>
+                </svg>
+              </div>
+            </div>
+            
+            <!-- Particles -->
+            <div class="hero-lidar__particles" id="hero-lidar-particles"></div>
+            
+            <!-- Brand text below -->
+            <div class="hero-lidar__brand">
+              <span class="hero-lidar__brand-name">eldar</span><span class="hero-lidar__brand-dot">.</span><span class="hero-lidar__brand-suffix">marketing</span>
+            </div>
+          </div>
+          
+          <h1 class="hero__title">Расскажите, что вам нужно</h1>
+          <p class="hero__subtitle">Получите персональное предложение за 5 минут</p>
+          
+          <!-- Chat Input -->
+          <div class="chat-input" id="chat-input">
+            <div class="chat-input__wrapper">
+              <span class="chat-input__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <path d="m21 21-4.35-4.35"></path>
+                </svg>
+              </span>
+              <input 
+                type="text" 
+                class="chat-input__field" 
+                id="chat-field"
+                placeholder="Нужна реклама в..."
+                autocomplete="off"
+                aria-label="Введите ваш запрос"
+              >
+              <button class="chat-input__submit" id="chat-submit" aria-label="Отправить запрос">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m22 2-7 20-4-9-9-4 20-7z"></path>
+                </svg>
+              </button>
+            </div>
+            
+            <!-- Autocomplete Dropdown -->
+            <div class="autocomplete" id="autocomplete" hidden>
+              <ul class="autocomplete__list" id="autocomplete-list" role="listbox">
+                <!-- Suggestions will be inserted here -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proposal Section -->
+    <section class="proposal" id="proposal" hidden>
+      <div class="container">
+        <div class="proposal__content">
+          <div class="proposal__steps" id="proposal-steps">
+            <!-- Steps will be inserted here -->
+          </div>
+          
+          <div class="proposal__result" id="proposal-result" hidden>
+            <!-- Result will be inserted here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Metrics Section -->
+    <section class="metrics" id="metrics">
+      <div class="container">
+        <div class="metrics__grid">
+          <div class="metric-card">
+            <span class="metric-card__value">150+</span>
+            <span class="metric-card__label">проектов</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-card__value">3.2x</span>
+            <span class="metric-card__label">средний ROI</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-card__value">48ч</span>
+            <span class="metric-card__label">до старта</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-card__value">98%</span>
+            <span class="metric-card__label">возвращаются</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__copyright">
+          © <span id="current-year"></span> eldar.marketing
+        </div>
+        <div class="footer__contacts">
+          <a href="mailto:hello@eldar.marketing" class="footer__link">hello@eldar.marketing</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Checkout Modal -->
+  <div class="modal" id="checkout-modal" hidden>
+    <div class="modal__overlay" id="modal-overlay"></div>
+    <div class="modal__content" id="modal-content">
+      <!-- Checkout content will be inserted here -->
+    </div>
+  </div>
+
+  <!-- Scripts - deferred for performance -->
+  <script src="src/app.js" defer></script>
+</body>
+</html>

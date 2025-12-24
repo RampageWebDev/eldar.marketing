@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="url(#bgGradient)"/>
+  
+  <!-- E Letter -->
+  <path d="M6 6 L6 26 L18 26 L18 22 L11 22 L11 18 L16 18 L16 14 L11 14 L11 10 L18 10 L18 6 Z" fill="url(#blueGrad)"/>
+  
+  <!-- LIDAR scan lines -->
+  <line x1="18" y1="8" x2="26" y2="6" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="27" cy="5.5" r="1.2" fill="#3b82f6"/>
+  
+  <line x1="16" y1="16" x2="26" y2="16" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="27" cy="16" r="1" fill="#3b82f6"/>
+  
+  <line x1="18" y1="24" x2="26" y2="26" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="27" cy="26.5" r="1.2" fill="#3b82f6"/>
+</svg>
