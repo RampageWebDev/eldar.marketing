@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 56" fill="none">
+  <defs>
+    <linearGradient id="g82" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1e40af"/>
+    </linearGradient>
+    <radialGradient id="egg82" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#b45309"/>
+    </radialGradient>
+  </defs>
+  <!-- ELDAR -->
+  <text x="12" y="38" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" letter-spacing="1" fill="url(#g82)">eldar</text>
+  <!-- Главный сперматозоид пробивает -->
+  <path d="M95 28 L135 28" stroke="url(#g82)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="90" cy="28" r="5" fill="#3b82f6"/>
+  <!-- Хвост -->
+  <path d="M85 28 Q75 22 65 28 Q55 34 45 28" stroke="#3b82f6" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- Яйцеклетка -->
+  <circle cx="150" cy="28" r="14" fill="none" stroke="url(#egg82)" stroke-width="3"/>
+  <circle cx="150" cy="28" r="10" fill="url(#egg82)"/>
+  <!-- Момент проникновения - искры -->
+  <circle cx="136" cy="22" r="2" fill="#fbbf24"/>
+  <circle cx="138" cy="34" r="2" fill="#fbbf24"/>
+  <!-- MARKETING -->
+  <text x="180" y="38" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" letter-spacing="1" fill="#ffffff">marketing</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Фавиконка: Концепция 2 TARGET -->
+  <rect width="32" height="32" rx="6" fill="#1a1a2e"/>
+  <g transform="translate(16, 16)">
+    <circle cx="0" cy="0" r="11" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="2.5" fill="#0066ff"/>
+  </g>
+</svg>

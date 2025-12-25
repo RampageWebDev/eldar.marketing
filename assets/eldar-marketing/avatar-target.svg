@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Аватар для соцсетей: Концепция 2 TARGET -->
+  <rect width="400" height="400" fill="#1a1a2e"/>
+  <g transform="translate(200, 200)">
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#ffffff" stroke-width="10"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#ffffff" stroke-width="8"/>
+    <circle cx="0" cy="0" r="24" fill="#0066ff"/>
+  </g>
+</svg>

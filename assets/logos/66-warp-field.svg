@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 64" fill="none">
+  <defs>
+    <linearGradient id="gold66" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#b45309"/>
+    </linearGradient>
+    <radialGradient id="warp66" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="50%" style="stop-color:#451a03"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </radialGradient>
+  </defs>
+  <!-- ELDAR -->
+  <text x="12" y="42" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" letter-spacing="2" fill="url(#gold66)">eldar</text>
+  <!-- Искривление пространства -->
+  <path d="M100 16 Q130 16 148 32 Q130 48 100 48" stroke="#fbbf24" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M105 20 Q132 20 148 32 Q132 44 105 44" stroke="#d97706" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M110 24 Q134 24 148 32 Q134 40 110 40" stroke="#fbbf24" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- Точка - центр искривления -->
+  <circle cx="156" cy="32" r="12" fill="url(#warp66)"/>
+  <!-- Искривление к marketing -->
+  <path d="M164 24 Q180 24 200 20" stroke="#fbbf24" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M168 32 Q185 32 200 32" stroke="#d97706" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M164 40 Q180 40 200 44" stroke="#fbbf24" stroke-width="1" fill="none" opacity="0.3"/>
+  <!-- MARKETING -->
+  <text x="200" y="42" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" letter-spacing="1" fill="#ffffff">marketing</text>
+</svg>

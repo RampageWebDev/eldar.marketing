@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 56" fill="none">
+  <defs>
+    <linearGradient id="gold50" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#78350f"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4, 4)">
+    <!-- Паутина влияния -->
+    <polygon points="26,2 48,14 48,34 26,46 4,34 4,14" stroke="url(#gold50)" stroke-width="1.5" fill="none"/>
+    <polygon points="26,10 40,18 40,30 26,38 12,30 12,18" stroke="#d97706" stroke-width="1" fill="none" opacity="0.6"/>
+    <!-- Радиальные связи -->
+    <line x1="26" y1="24" x2="26" y2="2" stroke="#fbbf24" stroke-width="1" opacity="0.5"/>
+    <line x1="26" y1="24" x2="48" y2="14" stroke="#d97706" stroke-width="1" opacity="0.5"/>
+    <line x1="26" y1="24" x2="48" y2="34" stroke="#fbbf24" stroke-width="1" opacity="0.5"/>
+    <line x1="26" y1="24" x2="26" y2="46" stroke="#d97706" stroke-width="1" opacity="0.5"/>
+    <line x1="26" y1="24" x2="4" y2="34" stroke="#fbbf24" stroke-width="1" opacity="0.5"/>
+    <line x1="26" y1="24" x2="4" y2="14" stroke="#d97706" stroke-width="1" opacity="0.5"/>
+    <!-- Узлы -->
+    <circle cx="26" cy="2" r="3" fill="#fbbf24"/>
+    <circle cx="48" cy="14" r="3" fill="#d97706"/>
+    <circle cx="48" cy="34" r="3" fill="#fbbf24"/>
+    <circle cx="26" cy="46" r="3" fill="#d97706"/>
+    <circle cx="4" cy="34" r="3" fill="#fbbf24"/>
+    <circle cx="4" cy="14" r="3" fill="#d97706"/>
+    <!-- Центр E -->
+    <circle cx="26" cy="24" r="8" fill="#0a0a0a" stroke="url(#gold50)" stroke-width="2"/>
+    <path d="M22 19 L22 29 L30 29 L30 27 L25 27 L25 25 L29 25 L29 23 L25 23 L25 21 L30 21 L30 19 Z" fill="url(#gold50)"/>
+  </g>
+  <text x="68" y="38" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" letter-spacing="1">
+    <tspan fill="#fbbf24">eldar</tspan><tspan fill="#d97706">.</tspan><tspan fill="#ffffff">marketing</tspan>
+  </text>
+</svg>

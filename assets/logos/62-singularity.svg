@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 64" fill="none">
+  <defs>
+    <linearGradient id="gold62" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#b45309"/>
+    </linearGradient>
+    <radialGradient id="sing62" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="50%" style="stop-color:#451a03"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </radialGradient>
+  </defs>
+  <!-- ELDAR -->
+  <text x="12" y="42" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" letter-spacing="2" fill="url(#gold62)">eldar</text>
+  <!-- Спиральные орбиты засасываемые в точку -->
+  <path d="M100 24 Q115 18 130 24 Q145 30 150 32" stroke="#fbbf24" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M100 32 Q120 28 135 30 Q148 32 150 32" stroke="#d97706" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M100 40 Q115 46 130 40 Q145 34 150 32" stroke="#fbbf24" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- Частицы засасываемые -->
+  <circle cx="108" cy="26" r="2" fill="#fbbf24" opacity="0.4"/>
+  <circle cx="120" cy="30" r="2.5" fill="#d97706" opacity="0.6"/>
+  <circle cx="135" cy="32" r="3" fill="#fbbf24" opacity="0.8"/>
+  <!-- Сингулярность - точка -->
+  <circle cx="158" cy="32" r="14" fill="url(#sing62)"/>
+  <ellipse cx="158" cy="32" rx="20" ry="6" stroke="#fbbf24" stroke-width="2" fill="none" opacity="0.6"/>
+  <ellipse cx="158" cy="32" rx="14" ry="4" stroke="#d97706" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <!-- Энергия выходящая к marketing -->
+  <path d="M172 32 Q190 26 210 30" stroke="#fbbf24" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M172 32 Q195 32 210 36" stroke="#d97706" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M172 32 Q190 38 210 42" stroke="#fbbf24" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- MARKETING -->
+  <text x="210" y="42" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" letter-spacing="1" fill="#ffffff">marketing</text>
+</svg>

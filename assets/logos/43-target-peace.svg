@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 56" fill="none">
+  <defs>
+    <linearGradient id="gold43" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#78350f"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4, 4)">
+    <!-- Прицел/таргет -->
+    <circle cx="26" cy="24" r="22" stroke="url(#gold43)" stroke-width="2" fill="none"/>
+    <circle cx="26" cy="24" r="14" stroke="#d97706" stroke-width="1.5" fill="none"/>
+    <circle cx="26" cy="24" r="6" stroke="#fbbf24" stroke-width="1.5" fill="none"/>
+    <!-- Перекрестие -->
+    <line x1="26" y1="0" x2="26" y2="16" stroke="url(#gold43)" stroke-width="2"/>
+    <line x1="26" y1="32" x2="26" y2="48" stroke="url(#gold43)" stroke-width="2"/>
+    <line x1="0" y1="24" x2="18" y2="24" stroke="url(#gold43)" stroke-width="2"/>
+    <line x1="34" y1="24" x2="52" y2="24" stroke="url(#gold43)" stroke-width="2"/>
+    <!-- Голубь/символ мира в центре (стилизованный) -->
+    <path d="M23 22 L26 18 L29 22 L26 24 Z" fill="#fbbf24"/>
+    <path d="M26 24 L26 28" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M22 20 L18 18" stroke="#d97706" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M30 20 L34 18" stroke="#d97706" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <text x="68" y="38" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" letter-spacing="1">
+    <tspan fill="#fbbf24">eldar</tspan><tspan fill="#d97706">.</tspan><tspan fill="#ffffff">marketing</tspan>
+  </text>
+</svg>

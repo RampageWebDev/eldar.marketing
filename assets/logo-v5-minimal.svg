@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 48" fill="none">
+  <defs>
+    <linearGradient id="minGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Minimal bracket/code style icon -->
+  <g transform="translate(4, 6)">
+    <!-- Left bracket -->
+    <path d="M8 0 L0 18 L8 36" stroke="url(#minGradient)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Right bracket -->
+    <path d="M28 0 L36 18 L28 36" stroke="url(#minGradient)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Center dot -->
+    <circle cx="18" cy="18" r="4" fill="url(#minGradient)"/>
+  </g>
+  
+  <!-- Text: eldar.marketing -->
+  <text x="56" y="34" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="600" fill="#ffffff">
+    <tspan fill="#3b82f6">eldar</tspan><tspan fill="#6b7280">.</tspan><tspan fill="#ffffff">marketing</tspan>
+  </text>
+</svg>

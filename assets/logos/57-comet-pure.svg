@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 56" fill="none">
+  <defs>
+    <linearGradient id="gold57" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#78350f;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="core57" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#b45309"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4, 4)">
+    <!-- Хвост кометы -->
+    <path d="M0 32 Q20 26 36 20" stroke="url(#gold57)" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M10 28 Q26 24 40 18" stroke="#d97706" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.7"/>
+    <path d="M20 26 Q32 22 44 16" stroke="#fbbf24" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <!-- Частицы -->
+    <circle cx="8" cy="30" r="2" fill="#d97706" opacity="0.4"/>
+    <circle cx="18" cy="26" r="2.5" fill="#d97706" opacity="0.5"/>
+    <circle cx="28" cy="22" r="3" fill="#fbbf24" opacity="0.6"/>
+    <!-- Ядро -->
+    <circle cx="48" cy="14" r="12" fill="url(#core57)"/>
+    <circle cx="44" cy="10" r="3" fill="#ffffff" opacity="0.6"/>
+  </g>
+  <text x="76" y="38" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" letter-spacing="1">
+    <tspan fill="#fbbf24">eldar</tspan><tspan fill="#d97706">.</tspan><tspan fill="#ffffff">marketing</tspan>
+  </text>
+</svg>

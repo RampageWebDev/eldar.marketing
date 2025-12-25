@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 56" fill="none">
+  <defs>
+    <linearGradient id="gold46" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#78350f"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4, 4)">
+    <!-- Центральный E - источник влияния -->
+    <circle cx="28" cy="24" r="10" fill="#0a0a0a" stroke="url(#gold46)" stroke-width="2.5"/>
+    <path d="M23 18 L23 30 L33 30 L33 27 L27 27 L27 25 L31 25 L31 23 L27 23 L27 21 L33 21 L33 18 Z" fill="url(#gold46)"/>
+    <!-- Волны влияния -->
+    <circle cx="28" cy="24" r="16" stroke="#fbbf24" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <circle cx="28" cy="24" r="22" stroke="#d97706" stroke-width="1" fill="none" opacity="0.4"/>
+    <!-- Люди/точки аудитории -->
+    <circle cx="8" cy="10" r="3" fill="#fbbf24"/>
+    <circle cx="48" cy="10" r="3" fill="#d97706"/>
+    <circle cx="4" cy="28" r="3" fill="#d97706"/>
+    <circle cx="52" cy="28" r="3" fill="#fbbf24"/>
+    <circle cx="10" cy="42" r="3" fill="#fbbf24"/>
+    <circle cx="46" cy="42" r="3" fill="#d97706"/>
+    <!-- Связи к аудитории -->
+    <line x1="20" y1="16" x2="10" y2="12" stroke="#fbbf24" stroke-width="1" opacity="0.5"/>
+    <line x1="36" y1="16" x2="46" y2="12" stroke="#d97706" stroke-width="1" opacity="0.5"/>
+    <line x1="18" y1="24" x2="6" y2="28" stroke="#d97706" stroke-width="1" opacity="0.5"/>
+    <line x1="38" y1="24" x2="50" y2="28" stroke="#fbbf24" stroke-width="1" opacity="0.5"/>
+    <line x1="20" y1="32" x2="12" y2="40" stroke="#fbbf24" stroke-width="1" opacity="0.5"/>
+    <line x1="36" y1="32" x2="44" y2="40" stroke="#d97706" stroke-width="1" opacity="0.5"/>
+  </g>
+  <text x="72" y="38" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" letter-spacing="1">
+    <tspan fill="#fbbf24">eldar</tspan><tspan fill="#d97706">.</tspan><tspan fill="#ffffff">marketing</tspan>
+  </text>
+</svg>

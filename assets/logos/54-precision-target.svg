@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 56" fill="none">
+  <defs>
+    <linearGradient id="gold54" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#78350f"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4, 4)">
+    <!-- Прицел -->
+    <circle cx="26" cy="24" r="20" stroke="url(#gold54)" stroke-width="2.5" fill="none"/>
+    <circle cx="26" cy="24" r="12" stroke="#d97706" stroke-width="1.5" fill="none"/>
+    <!-- Перекрестие -->
+    <line x1="26" y1="2" x2="26" y2="10" stroke="url(#gold54)" stroke-width="3"/>
+    <line x1="26" y1="38" x2="26" y2="46" stroke="url(#gold54)" stroke-width="3"/>
+    <line x1="4" y1="24" x2="12" y2="24" stroke="url(#gold54)" stroke-width="3"/>
+    <line x1="40" y1="24" x2="48" y2="24" stroke="url(#gold54)" stroke-width="3"/>
+    <!-- Центр -->
+    <circle cx="26" cy="24" r="5" fill="url(#gold54)"/>
+  </g>
+  <text x="68" y="38" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" letter-spacing="1">
+    <tspan fill="#fbbf24">eldar</tspan><tspan fill="#d97706">.</tspan><tspan fill="#ffffff">marketing</tspan>
+  </text>
+</svg>

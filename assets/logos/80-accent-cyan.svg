@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 56" fill="none">
+  <defs>
+    <linearGradient id="blue80" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0891b2"/>
+      <stop offset="100%" style="stop-color:#164e63"/>
+    </linearGradient>
+    <radialGradient id="core80" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="60%" style="stop-color:#164e63"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </radialGradient>
+  </defs>
+  <!-- ELDAR -->
+  <text x="12" y="38" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="600" letter-spacing="1" fill="url(#blue80)">eldar</text>
+  <!-- Линия -->
+  <line x1="95" y1="28" x2="128" y2="28" stroke="url(#blue80)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Точка с акцентом -->
+  <circle cx="140" cy="28" r="10" fill="url(#core80)"/>
+  <!-- Линия -->
+  <line x1="152" y1="28" x2="185" y2="28" stroke="#164e63" stroke-width="2" stroke-linecap="round"/>
+  <!-- MARKETING -->
+  <text x="190" y="38" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="600" letter-spacing="1" fill="#ffffff">marketing</text>
+</svg>

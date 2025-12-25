@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+  <!-- Монохромная версия: NEXUS — чёрный -->
+  <g transform="translate(40, 50)">
+    <line x1="0" y1="0" x2="20" y2="-18" stroke="#000000" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="24" y2="8" stroke="#000000" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="8" y2="22" stroke="#000000" stroke-width="1.5"/>
+    <line x1="20" y1="-18" x2="24" y2="8" stroke="#000000" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="6" fill="#000000"/>
+    <circle cx="20" cy="-18" r="4" fill="#000000"/>
+    <circle cx="24" cy="8" r="4" fill="#000000"/>
+    <circle cx="8" cy="22" r="3" fill="#000000"/>
+  </g>
+  <text x="85" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#000000" letter-spacing="-0.5">eldar.marketing</text>
+</svg>

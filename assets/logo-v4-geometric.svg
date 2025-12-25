@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 48" fill="none">
+  <defs>
+    <linearGradient id="geoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Geometric E with data points -->
+  <g transform="translate(4, 4)">
+    <!-- Stylized E made of connected dots -->
+    <circle cx="4" cy="4" r="3" fill="url(#geoGradient)"/>
+    <circle cx="4" cy="20" r="3" fill="url(#geoGradient)"/>
+    <circle cx="4" cy="36" r="3" fill="url(#geoGradient)"/>
+    <circle cx="20" cy="4" r="3" fill="url(#geoGradient)"/>
+    <circle cx="16" cy="20" r="3" fill="url(#geoGradient)"/>
+    <circle cx="20" cy="36" r="3" fill="url(#geoGradient)"/>
+    
+    <!-- Connecting lines -->
+    <line x1="4" y1="4" x2="4" y2="36" stroke="url(#geoGradient)" stroke-width="2"/>
+    <line x1="4" y1="4" x2="20" y2="4" stroke="url(#geoGradient)" stroke-width="2"/>
+    <line x1="4" y1="20" x2="16" y2="20" stroke="url(#geoGradient)" stroke-width="2"/>
+    <line x1="4" y1="36" x2="20" y2="36" stroke="url(#geoGradient)" stroke-width="2"/>
+    
+    <!-- Data rays -->
+    <line x1="20" y1="4" x2="36" y2="4" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.6"/>
+    <line x1="16" y1="20" x2="36" y2="20" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.6"/>
+    <line x1="20" y1="36" x2="36" y2="36" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.6"/>
+    
+    <circle cx="38" cy="4" r="2" fill="#3b82f6" opacity="0.8"/>
+    <circle cx="38" cy="20" r="2" fill="#3b82f6" opacity="0.8"/>
+    <circle cx="38" cy="36" r="2" fill="#3b82f6" opacity="0.8"/>
+  </g>
+  
+  <!-- Text: eldar.marketing -->
+  <text x="56" y="34" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="600" fill="#ffffff">
+    <tspan fill="#3b82f6">eldar</tspan><tspan fill="#6b7280">.</tspan><tspan fill="#ffffff">marketing</tspan>
+  </text>
+</svg>

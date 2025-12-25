@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 56" fill="none">
+  <defs>
+    <linearGradient id="g90" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#6d28d9"/>
+    </linearGradient>
+    <radialGradient id="nuc90" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#fef3c7"/>
+      <stop offset="50%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#78350f"/>
+    </radialGradient>
+  </defs>
+  <!-- ELDAR фиолетовый -->
+  <text x="12" y="38" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" letter-spacing="1" fill="url(#g90)">eldar</text>
+  <!-- Электроны/орбиты -->
+  <ellipse cx="140" cy="28" rx="24" ry="10" stroke="#8b5cf6" stroke-width="1.5" fill="none" transform="rotate(-30, 140, 28)" opacity="0.5"/>
+  <ellipse cx="140" cy="28" rx="24" ry="10" stroke="#6d28d9" stroke-width="1.5" fill="none" transform="rotate(30, 140, 28)" opacity="0.5"/>
+  <ellipse cx="140" cy="28" rx="24" ry="10" stroke="#8b5cf6" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <!-- Ядро -->
+  <circle cx="140" cy="28" r="10" fill="url(#nuc90)"/>
+  <!-- Электроны -->
+  <circle cx="116" cy="20" r="3" fill="#8b5cf6"/>
+  <circle cx="164" cy="36" r="3" fill="#6d28d9"/>
+  <!-- MARKETING -->
+  <text x="180" y="38" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" letter-spacing="1" fill="#ffffff">marketing</text>
+</svg>

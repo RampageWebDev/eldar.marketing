@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 56" fill="none">
+  <defs>
+    <linearGradient id="gold33" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#b45309"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4, 6)">
+    <!-- Глитч-слои E премиум -->
+    <path d="M4 4 L4 40 L36 40 L36 33 L14 33 L14 25 L32 25 L32 19 L14 19 L14 11 L36 11 L36 4 Z" fill="#d97706" transform="translate(-2, 0)" opacity="0.5"/>
+    <path d="M4 4 L4 40 L36 40 L36 33 L14 33 L14 25 L32 25 L32 19 L14 19 L14 11 L36 11 L36 4 Z" fill="#fbbf24" transform="translate(2, 0)" opacity="0.5"/>
+    <path d="M4 4 L4 40 L36 40 L36 33 L14 33 L14 25 L32 25 L32 19 L14 19 L14 11 L36 11 L36 4 Z" fill="url(#gold33)"/>
+    <!-- Глитч-полосы -->
+    <rect x="0" y="16" width="44" height="3" fill="#fbbf24" opacity="0.3"/>
+    <rect x="8" y="28" width="34" height="2" fill="#d97706" opacity="0.4"/>
+    <!-- Орбита -->
+    <ellipse cx="22" cy="22" rx="26" ry="11" stroke="url(#gold33)" stroke-width="2" fill="none" transform="rotate(-18, 22, 22)" opacity="0.5"/>
+    <circle cx="48" cy="14" r="3" fill="#fbbf24"/>
+  </g>
+  <text x="64" y="38" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" letter-spacing="1">
+    <tspan fill="#fbbf24">el</tspan><tspan fill="#d97706">dar</tspan><tspan fill="#b45309">.</tspan><tspan fill="#ffffff">marketing</tspan>
+  </text>
+</svg>

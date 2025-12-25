@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 56" fill="none">
+  <defs>
+    <linearGradient id="gold52" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#78350f"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4, 4)">
+    <!-- Потоки данных -->
+    <path d="M0 12 Q16 20 26 24" stroke="#d97706" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M0 24 Q14 24 26 24" stroke="#fbbf24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M0 36 Q16 28 26 24" stroke="#d97706" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Точки на потоках -->
+    <circle cx="6" cy="14" r="2.5" fill="#d97706" opacity="0.6"/>
+    <circle cx="14" cy="18" r="3" fill="#d97706" opacity="0.7"/>
+    <circle cx="6" cy="24" r="2.5" fill="#fbbf24" opacity="0.7"/>
+    <circle cx="16" cy="24" r="3" fill="#fbbf24" opacity="0.8"/>
+    <circle cx="6" cy="34" r="2.5" fill="#d97706" opacity="0.6"/>
+    <circle cx="14" cy="30" r="3" fill="#d97706" opacity="0.7"/>
+    <!-- Центральный узел -->
+    <circle cx="26" cy="24" r="10" fill="#0a0a0a" stroke="url(#gold52)" stroke-width="3"/>
+    <circle cx="26" cy="24" r="4" fill="url(#gold52)"/>
+    <!-- Исходящий луч -->
+    <path d="M36 24 L52 24" stroke="url(#gold52)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="56" cy="24" r="4" fill="#fbbf24"/>
+  </g>
+  <text x="76" y="38" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" letter-spacing="1">
+    <tspan fill="#fbbf24">eldar</tspan><tspan fill="#d97706">.</tspan><tspan fill="#ffffff">marketing</tspan>
+  </text>
+</svg>

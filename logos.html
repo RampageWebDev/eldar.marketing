@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eldar.marketing — Логотипы</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    :root {
+      --bg: #ffffff;
+      --bg-card: #f8fafc;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+    }
+    
+    [data-theme="dark"] {
+      --bg: #0a0a0a;
+      --bg-card: #171717;
+      --text: #ffffff;
+      --text-muted: #a1a1aa;
+      --border: #27272a;
+    }
+    
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      transition: background 0.3s, color 0.3s;
+    }
+    
+    .header {
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+    
+    .header h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    
+    .theme-toggle {
+      display: flex;
+      gap: 0.5rem;
+      background: var(--bg-card);
+      padding: 0.25rem;
+      border-radius: 0.5rem;
+      border: 1px solid var(--border);
+    }
+    
+    .theme-btn {
+      padding: 0.5rem 1rem;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      border-radius: 0.375rem;
+      font-size: 0.875rem;
+      transition: all 0.2s;
+    }
+    
+    .theme-btn.active {
+      background: var(--text);
+      color: var(--bg);
+    }
+    
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    .section {
+      margin-bottom: 3rem;
+    }
+    
+    .section h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 1.5rem;
+    }
+    
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    }
+    
+    .logo-preview {
+      padding: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 180px;
+    }
+    
+    .logo-preview.light-bg {
+      background: #ffffff;
+    }
+    
+    .logo-preview.dark-bg {
+      background: #0a0a0a;
+    }
+    
+    .logo-preview img {
+      max-width: 100%;
+      height: 80px;
+    }
+    
+    .card-info {
+      padding: 1rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .card-name {
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+    
+    .card-actions {
+      display: flex;
+      gap: 0.5rem;
+    }
+    
+    .btn-small {
+      padding: 0.375rem 0.75rem;
+      font-size: 0.75rem;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .btn-small:hover {
+      background: var(--text);
+      color: var(--bg);
+    }
+    
+    .preview-toggle {
+      display: flex;
+      gap: 0.25rem;
+      margin-bottom: 1rem;
+    }
+    
+    .preview-btn {
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 0.875rem;
+      transition: all 0.2s;
+    }
+    
+    .preview-btn:first-child { border-radius: 0.5rem 0 0 0.5rem; }
+    .preview-btn:last-child { border-radius: 0 0.5rem 0.5rem 0; }
+    
+    .preview-btn.active {
+      background: var(--text);
+      color: var(--bg);
+      border-color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>eldar.marketing — Логотипы</h1>
+    <div class="theme-toggle">
+      <button class="theme-btn active" data-theme="light">☀️ Светлая</button>
+      <button class="theme-btn" data-theme="dark">🌙 Тёмная</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="preview-toggle">
+      <button class="preview-btn active" data-bg="dark">На тёмном фоне</button>
+      <button class="preview-btn" data-bg="light">На светлом фоне</button>
+    </div>
+
+    <section class="section">
+      <h2>🎯 Оплодотворение / Бабки / Дерзко</h2>
+      <div class="grid" id="conception-logos"></div>
+    </section>
+
+    <section class="section">
+      <h2>💎 Минимализм / Синий-Графит</h2>
+      <div class="grid" id="minimal-logos"></div>
+    </section>
+
+    <section class="section">
+      <h2>🌀 Горизонт событий (золото)</h2>
+      <div class="grid" id="horizon-logos"></div>
+    </section>
+
+    <section class="section">
+      <h2>✨ Чистые символы (без E)</h2>
+      <div class="grid" id="pure-logos"></div>
+    </section>
+
+    <section class="section">
+      <h2>🧠 Влияние / Cambridge Analytica</h2>
+      <div class="grid" id="influence-logos"></div>
+    </section>
+
+    <section class="section">
+      <h2>🔥 Дерзкие / Премиум</h2>
+      <div class="grid" id="bold-logos"></div>
+    </section>
+
+    <section class="section">
+      <h2>☄️ Комета + Нейросети</h2>
+      <div class="grid" id="comet-logos"></div>
+    </section>
+
+    <section class="section">
+      <h2>🌐 IE-стиль / Орбиты</h2>
+      <div class="grid" id="orbit-logos"></div>
+    </section>
+
+    <section class="section">
+      <h2>📊 Классика / Минимализм</h2>
+      <div class="grid" id="classic-logos"></div>
+    </section>
+  </div>
+
+  <script>
+    const logos = {
+      conception: [
+        { name: '81 — Fertilize', file: '81-fertilize.svg' },
+        { name: '82 — Penetrate', file: '82-penetrate.svg' },
+        { name: '83 — Conception', file: '83-conception.svg' },
+        { name: '84 — Golden Egg', file: '84-golden-egg.svg' },
+        { name: '85 — Cell Division', file: '85-cell-division.svg' },
+        { name: '86 — Money Shot', file: '86-money-shot.svg' },
+        { name: '87 — Burst', file: '87-burst.svg' },
+        { name: '88 — Target Hit', file: '88-target-hit.svg' },
+        { name: '89 — Genesis', file: '89-genesis.svg' },
+        { name: '90 — Nucleus', file: '90-nucleus.svg' },
+      ],
+      minimal: [
+        { name: '71 — Horizon Blue', file: '71-horizon-blue.svg' },
+        { name: '72 — Horizon Graphite', file: '72-horizon-graphite.svg' },
+        { name: '73 — Orbit Minimal', file: '73-orbit-minimal-blue.svg' },
+        { name: '74 — Converge Blue', file: '74-converge-blue.svg' },
+        { name: '75 — Singularity Blue', file: '75-singularity-blue.svg' },
+        { name: '76 — Double Orbit', file: '76-double-orbit-blue.svg' },
+        { name: '77 — Ring Dot', file: '77-ring-dot-blue.svg' },
+        { name: '78 — Pure Dot', file: '78-pure-dot-blue.svg' },
+        { name: '79 — Waves Blue', file: '79-waves-blue.svg' },
+        { name: '80 — Accent Cyan', file: '80-accent-cyan.svg' },
+      ],
+      horizon: [
+        { name: '61 — Event Horizon', file: '61-event-horizon.svg' },
+        { name: '62 — Singularity', file: '62-singularity.svg' },
+        { name: '63 — Vortex Dot', file: '63-vortex-dot.svg' },
+        { name: '64 — Gravity Well', file: '64-gravity-well.svg' },
+        { name: '65 — Accretion', file: '65-accretion.svg' },
+        { name: '66 — Warp Field', file: '66-warp-field.svg' },
+        { name: '67 — Orbit Text', file: '67-orbit-text.svg' },
+        { name: '68 — Pulse Dot', file: '68-pulse-dot.svg' },
+        { name: '69 — Converge', file: '69-converge.svg' },
+        { name: '70 — Minimal Horizon', file: '70-minimal-horizon.svg' },
+      ],
+      pure: [
+        { name: '51 — Pure Influence', file: '51-pure-influence.svg' },
+        { name: '52 — Data Nexus', file: '52-data-nexus.svg' },
+        { name: '53 — Mind Map', file: '53-mind-map.svg' },
+        { name: '54 — Precision Target', file: '54-precision-target.svg' },
+        { name: '55 — All Seeing', file: '55-all-seeing.svg' },
+        { name: '56 — Global Web', file: '56-global-web.svg' },
+        { name: '57 — Comet Pure', file: '57-comet-pure.svg' },
+        { name: '58 — Neural Pure', file: '58-neural-pure.svg' },
+        { name: '59 — Orbit Pure', file: '59-orbit-pure.svg' },
+        { name: '60 — Blackhole Pure', file: '60-blackhole-pure.svg' },
+      ],
+      influence: [
+        { name: '41 — Data Mind', file: '41-data-mind.svg' },
+        { name: '42 — Global Influence', file: '42-global-influence.svg' },
+        { name: '43 — Target Peace', file: '43-target-peace.svg' },
+        { name: '44 — Data Streams', file: '44-data-streams.svg' },
+        { name: '45 — Psyche Graph', file: '45-psyche-graph.svg' },
+        { name: '46 — Mass Control', file: '46-mass-control.svg' },
+        { name: '47 — Precision Strike', file: '47-precision-strike.svg' },
+        { name: '48 — Narrative Control', file: '48-narrative-control.svg' },
+        { name: '49 — Algorithm Eye', file: '49-algorithm-eye.svg' },
+        { name: '50 — Influence Web', file: '50-influence-web.svg' },
+      ],
+      bold: [
+        { name: '31 — Neon Comet', file: '31-neon-comet.svg' },
+        { name: '32 — Cyber Eye', file: '32-cyber-eye.svg' },
+        { name: '33 — Glitch E', file: '33-glitch-e.svg' },
+        { name: '35 — Plasma Neural', file: '35-plasma-neural.svg' },
+        { name: '36 — Hologram E', file: '36-hologram-e.svg' },
+        { name: '39 — Supernova E', file: '39-supernova-e.svg' },
+        { name: '40 — Blackhole E', file: '40-blackhole-e.svg' },
+      ],
+      comet: [
+        { name: '22 — Neural Orbit', file: '22-neural-orbit.svg' },
+        { name: '23 — Atlas Eye', file: '23-atlas-eye.svg' },
+        { name: '25 — Comet Trail E', file: '25-comet-trail-e.svg' },
+        { name: '27 — Global Eye E', file: '27-global-eye-e.svg' },
+        { name: '28 — All Seeing Orbit', file: '28-all-seeing-orbit.svg' },
+        { name: '30 — Atlas Control', file: '30-atlas-control.svg' },
+      ],
+      orbit: [
+        { name: '16 — Orbit E', file: '16-orbit-e.svg' },
+        { name: '17 — Double Orbit E', file: '17-double-orbit-e.svg' },
+        { name: '18 — Ring E Modern', file: '18-ring-e-modern.svg' },
+        { name: '19 — Swoosh E', file: '19-swoosh-e.svg' },
+        { name: '20 — Globe E', file: '20-globe-e.svg' },
+      ],
+      classic: [
+        { name: '02 — Target Dot', file: '02-target-dot.svg' },
+        { name: '03 — Hexagon E', file: '03-hexagon-e.svg' },
+        { name: '05 — Diamond E', file: '05-diamond-e.svg' },
+        { name: '06 — Cursor Click', file: '06-cursor-click.svg' },
+        { name: '07 — Network Nodes', file: '07-network-nodes.svg' },
+        { name: '08 — Pulse Signal', file: '08-pulse-signal.svg' },
+        { name: '09 — Brackets Code', file: '09-brackets-code.svg' },
+        { name: '11 — Square Gradient', file: '11-square-gradient.svg' },
+        { name: '13 — Dot Matrix', file: '13-dot-matrix.svg' },
+        { name: '14 — Shield Trust', file: '14-shield-trust.svg' },
+        { name: '15 — Infinity Loop', file: '15-infinity-loop.svg' },
+      ]
+    };
+
+    let currentBg = 'dark';
+
+    function createCard(logo) {
+      return `
+        <div class="card">
+          <div class="logo-preview ${currentBg}-bg">
+            <img src="assets/logos/${logo.file}" alt="${logo.name}">
+          </div>
+          <div class="card-info">
+            <span class="card-name">${logo.name}</span>
+            <div class="card-actions">
+              <a href="assets/logos/${logo.file}" download class="btn-small">SVG</a>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderLogos() {
+      document.getElementById('conception-logos').innerHTML = logos.conception.map(createCard).join('');
+      document.getElementById('minimal-logos').innerHTML = logos.minimal.map(createCard).join('');
+      document.getElementById('horizon-logos').innerHTML = logos.horizon.map(createCard).join('');
+      document.getElementById('pure-logos').innerHTML = logos.pure.map(createCard).join('');
+      document.getElementById('influence-logos').innerHTML = logos.influence.map(createCard).join('');
+      document.getElementById('bold-logos').innerHTML = logos.bold.map(createCard).join('');
+      document.getElementById('comet-logos').innerHTML = logos.comet.map(createCard).join('');
+      document.getElementById('orbit-logos').innerHTML = logos.orbit.map(createCard).join('');
+      document.getElementById('classic-logos').innerHTML = logos.classic.map(createCard).join('');
+    }
+
+    // Theme toggle
+    document.querySelectorAll('.theme-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.theme-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        document.documentElement.setAttribute('data-theme', btn.dataset.theme);
+      });
+    });
+
+    // Preview background toggle
+    document.querySelectorAll('.preview-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.preview-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentBg = btn.dataset.bg;
+        renderLogos();
+      });
+    });
+
+    renderLogos();
+  </script>
+</body>
+</html>

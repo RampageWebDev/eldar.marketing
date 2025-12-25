@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 64" fill="none">
+  <defs>
+    <linearGradient id="gold68" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#d97706"/>
+    </linearGradient>
+    <radialGradient id="pulse68" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#78350f"/>
+    </radialGradient>
+  </defs>
+  <!-- ELDAR -->
+  <text x="12" y="42" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" letter-spacing="2" fill="url(#gold68)">eldar</text>
+  <!-- Пульсирующие волны от eldar -->
+  <path d="M100 32 Q115 20 130 32 Q145 44 155 32" stroke="#fbbf24" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Точка - эпицентр -->
+  <circle cx="160" cy="32" r="10" fill="url(#pulse68)"/>
+  <!-- Волны влияния -->
+  <circle cx="160" cy="32" r="16" stroke="#fbbf24" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <circle cx="160" cy="32" r="22" stroke="#d97706" stroke-width="1" fill="none" opacity="0.3"/>
+  <!-- Пульс к marketing -->
+  <path d="M170 32 Q185 20 200 32 Q215 44 230 32" stroke="#d97706" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- MARKETING -->
+  <text x="210" y="42" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" letter-spacing="1" fill="#ffffff">marketing</text>
+</svg>

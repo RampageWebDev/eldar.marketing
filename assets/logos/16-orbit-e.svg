@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 56" fill="none">
+  <defs>
+    <linearGradient id="gold16" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#b45309"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4, 6)">
+    <!-- Буква E премиум -->
+    <path d="M14 8 L14 36 L34 36 L34 31 L20 31 L20 24 L32 24 L32 20 L20 20 L20 13 L34 13 L34 8 Z" fill="url(#gold16)"/>
+    <!-- Орбита -->
+    <ellipse cx="24" cy="22" rx="22" ry="11" stroke="url(#gold16)" stroke-width="2.5" fill="none" transform="rotate(-18, 24, 22)"/>
+    <!-- Точка на орбите -->
+    <circle cx="46" cy="14" r="4" fill="#fbbf24"/>
+  </g>
+  <text x="64" y="38" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" letter-spacing="1">
+    <tspan fill="#fbbf24">eldar</tspan><tspan fill="#d97706">.</tspan><tspan fill="#ffffff">marketing</tspan>
+  </text>
+</svg>

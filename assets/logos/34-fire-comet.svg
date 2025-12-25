@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 48" fill="none">
+  <defs>
+    <linearGradient id="fire1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="50%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#dc2626"/>
+    </linearGradient>
+    <linearGradient id="fire2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4, 4)">
+    <!-- Огненный хвост -->
+    <path d="M0 30 Q10 26 18 22 Q26 18 32 16" stroke="url(#fire1)" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <path d="M6 28 Q14 24 22 20 Q30 16 36 14" stroke="#fbbf24" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <path d="M12 26 Q20 22 28 18" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <!-- Ядро -->
+    <circle cx="42" cy="12" r="12" fill="url(#fire2)"/>
+    <path d="M35 6 L35 18 L49 18 L49 15 L40 15 L40 13 L47 13 L47 11 L40 11 L40 9 L49 9 L49 6 Z" fill="#0a0a0a"/>
+  </g>
+  <text x="68" y="34" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700">
+    <tspan fill="#fbbf24">eldar</tspan><tspan fill="#f97316">.</tspan><tspan fill="#ffffff">marketing</tspan>
+  </text>
+</svg>

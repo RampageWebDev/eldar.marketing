@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eldar.marketing — Варианты логотипа</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #ffffff;
+      color: #1a1a2e;
+      line-height: 1.5;
+    }
+    
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 60px;
+      padding: 40px 0;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      margin-bottom: 12px;
+      color: #1a1a2e;
+    }
+    
+    .subtitle {
+      font-size: 16px;
+      color: #666;
+      font-weight: 400;
+    }
+    
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 40px;
+      margin-bottom: 60px;
+    }
+    
+    .logo-option {
+      background: white;
+      border: 1px solid #e5e5e5;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    
+    .option-header {
+      padding: 24px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    
+    .option-number {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      background: #1a1a2e;
+      color: white;
+      border-radius: 8px;
+      text-align: center;
+      line-height: 32px;
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+    
+    .option-title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    
+    .option-desc {
+      color: #666;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    
+    .logo-variants {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    .variant {
+      padding: 40px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 120px;
+      position: relative;
+    }
+    
+    .variant.light {
+      background: #ffffff;
+      border-right: 1px solid #f0f0f0;
+    }
+    
+    .variant.dark {
+      background: #1a1a2e;
+    }
+    
+    .variant svg {
+      max-width: 280px;
+      height: auto;
+    }
+    
+    .variant-label {
+      position: absolute;
+      top: 12px;
+      left: 16px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 500;
+    }
+    
+    .variant.light .variant-label {
+      color: #999;
+    }
+    
+    .variant.dark .variant-label {
+      color: #999;
+    }
+    
+    .download-section {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 32px;
+      text-align: center;
+      margin-top: 40px;
+    }
+    
+    .download-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    
+    .download-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    
+    .download-item {
+      background: white;
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      padding: 16px;
+      text-decoration: none;
+      color: #1a1a2e;
+      transition: all 0.2s;
+    }
+    
+    .download-item:hover {
+      border-color: #0066ff;
+      transform: translateY(-2px);
+    }
+    
+    .download-item strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+    
+    .download-item span {
+      font-size: 12px;
+      color: #666;
+    }
+    
+    .specs-section {
+      margin-top: 60px;
+      padding-top: 40px;
+      border-top: 1px solid #e5e5e5;
+    }
+    
+    .specs-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    
+    .specs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+    }
+    
+    .spec-card {
+      background: white;
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      padding: 20px;
+    }
+    
+    .spec-card h4 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: #1a1a2e;
+    }
+    
+    .spec-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    
+    .spec-item:last-child {
+      margin-bottom: 0;
+    }
+    
+    .color-swatch {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 3px;
+      border: 1px solid #e5e5e5;
+      margin-left: 8px;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      color: #999;
+      font-size: 13px;
+      border-top: 1px solid #e5e5e5;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>eldar.marketing</h1>
+      <p class="subtitle">Варианты логотипа</p>
+    </header>
+
+    <div class="logo-grid">
+      <!-- Вариант 1: Signal -->
+      <div class="logo-option">
+        <div class="option-header">
+          <div class="option-number">1</div>
+          <h3 class="option-title">Signal</h3>
+          <p class="option-desc">Стилизованная буква E с акцентной точкой. Символизирует импульс и результат.</p>
+        </div>
+        <div class="logo-variants">
+          <div class="variant light">
+            <div class="variant-label">Светлый фон</div>
+            <svg viewBox="0 0 400 100">
+              <g transform="translate(20, 20)">
+                <rect x="0" y="0" width="4" height="60" fill="#1a1a2e"/>
+                <rect x="4" y="0" width="28" height="4" fill="#1a1a2e"/>
+                <rect x="4" y="28" width="22" height="4" fill="#1a1a2e"/>
+                <rect x="4" y="56" width="28" height="4" fill="#1a1a2e"/>
+                <circle cx="38" cy="30" r="5" fill="#0066ff"/>
+              </g>
+              <text x="85" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#1a1a2e" letter-spacing="-0.5">eldar</text>
+              <text x="85" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#0066ff" letter-spacing="-0.5" dx="68">.</text>
+              <text x="85" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#1a1a2e" letter-spacing="-0.5" dx="78">marketing</text>
+            </svg>
+          </div>
+          <div class="variant dark">
+            <div class="variant-label">Тёмный фон</div>
+            <svg viewBox="0 0 400 100">
+              <g transform="translate(20, 20)">
+                <rect x="0" y="0" width="4" height="60" fill="#ffffff"/>
+                <rect x="4" y="0" width="28" height="4" fill="#ffffff"/>
+                <rect x="4" y="28" width="22" height="4" fill="#ffffff"/>
+                <rect x="4" y="56" width="28" height="4" fill="#ffffff"/>
+                <circle cx="38" cy="30" r="5" fill="#0066ff"/>
+              </g>
+              <text x="85" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="-0.5">eldar</text>
+              <text x="85" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#0066ff" letter-spacing="-0.5" dx="68">.</text>
+              <text x="85" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="-0.5" dx="78">marketing</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Вариант 2: Target -->
+      <div class="logo-option">
+        <div class="option-header">
+          <div class="option-number">2</div>
+          <h3 class="option-title">Target</h3>
+          <p class="option-desc">Концентрические круги с центральной точкой. Символ точности и фокуса на цели.</p>
+        </div>
+        <div class="logo-variants">
+          <div class="variant light">
+            <div class="variant-label">Светлый фон</div>
+            <svg viewBox="0 0 400 100">
+              <g transform="translate(50, 50)">
+                <circle cx="0" cy="0" r="28" fill="none" stroke="#1a1a2e" stroke-width="2.5"/>
+                <circle cx="0" cy="0" r="16" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+                <circle cx="0" cy="0" r="5" fill="#0066ff"/>
+              </g>
+              <text x="95" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#1a1a2e" letter-spacing="-0.5">eldar</text>
+              <text x="163" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#0066ff" letter-spacing="-0.5">.</text>
+              <text x="173" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#1a1a2e" letter-spacing="-0.5">marketing</text>
+            </svg>
+          </div>
+          <div class="variant dark">
+            <div class="variant-label">Тёмный фон</div>
+            <svg viewBox="0 0 400 100">
+              <g transform="translate(50, 50)">
+                <circle cx="0" cy="0" r="28" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+                <circle cx="0" cy="0" r="16" fill="none" stroke="#ffffff" stroke-width="2"/>
+                <circle cx="0" cy="0" r="5" fill="#0066ff"/>
+              </g>
+              <text x="95" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="-0.5">eldar</text>
+              <text x="163" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#0066ff" letter-spacing="-0.5">.</text>
+              <text x="173" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="-0.5">marketing</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Вариант 3: Nexus -->
+      <div class="logo-option">
+        <div class="option-header">
+          <div class="option-number">3</div>
+          <h3 class="option-title">Nexus</h3>
+          <p class="option-desc">Сеть связанных узлов. Отражает системный подход и взаимосвязи в маркетинге.</p>
+        </div>
+        <div class="logo-variants">
+          <div class="variant light">
+            <div class="variant-label">Светлый фон</div>
+            <svg viewBox="0 0 400 100">
+              <g transform="translate(40, 50)">
+                <line x1="0" y1="0" x2="20" y2="-18" stroke="#1a1a2e" stroke-width="1.5"/>
+                <line x1="0" y1="0" x2="24" y2="8" stroke="#1a1a2e" stroke-width="1.5"/>
+                <line x1="0" y1="0" x2="8" y2="22" stroke="#1a1a2e" stroke-width="1.5"/>
+                <line x1="20" y1="-18" x2="24" y2="8" stroke="#1a1a2e" stroke-width="1.5"/>
+                <circle cx="0" cy="0" r="6" fill="#0066ff"/>
+                <circle cx="20" cy="-18" r="4" fill="#1a1a2e"/>
+                <circle cx="24" cy="8" r="4" fill="#1a1a2e"/>
+                <circle cx="8" cy="22" r="3" fill="#1a1a2e"/>
+              </g>
+              <text x="85" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#1a1a2e" letter-spacing="-0.5">eldar</text>
+              <text x="153" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#0066ff" letter-spacing="-0.5">.</text>
+              <text x="163" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#1a1a2e" letter-spacing="-0.5">marketing</text>
+            </svg>
+          </div>
+          <div class="variant dark">
+            <div class="variant-label">Тёмный фон</div>
+            <svg viewBox="0 0 400 100">
+              <g transform="translate(40, 50)">
+                <line x1="0" y1="0" x2="20" y2="-18" stroke="#ffffff" stroke-width="1.5"/>
+                <line x1="0" y1="0" x2="24" y2="8" stroke="#ffffff" stroke-width="1.5"/>
+                <line x1="0" y1="0" x2="8" y2="22" stroke="#ffffff" stroke-width="1.5"/>
+                <line x1="20" y1="-18" x2="24" y2="8" stroke="#ffffff" stroke-width="1.5"/>
+                <circle cx="0" cy="0" r="6" fill="#0066ff"/>
+                <circle cx="20" cy="-18" r="4" fill="#ffffff"/>
+                <circle cx="24" cy="8" r="4" fill="#ffffff"/>
+                <circle cx="8" cy="22" r="3" fill="#ffffff"/>
+              </g>
+              <text x="85" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="-0.5">eldar</text>
+              <text x="153" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#0066ff" letter-spacing="-0.5">.</text>
+              <text x="163" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="-0.5">marketing</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="specs-section">
+      <h3 class="specs-title">Технические характеристики</h3>
+      <div class="specs-grid">
+        <div class="spec-card">
+          <h4>Типографика</h4>
+          <div class="spec-item">
+            <span>Шрифт:</span>
+            <span>Inter SemiBold</span>
+          </div>
+          <div class="spec-item">
+            <span>Источник:</span>
+            <span>Google Fonts</span>
+          </div>
+          <div class="spec-item">
+            <span>Лицензия:</span>
+            <span>Open Font License</span>
+          </div>
+        </div>
+        
+        <div class="spec-card">
+          <h4>Цветовая палитра</h4>
+          <div class="spec-item">
+            <span>Основной:</span>
+            <span>#1A1A2E <span class="color-swatch" style="background:#1a1a2e"></span></span>
+          </div>
+          <div class="spec-item">
+            <span>Акцент:</span>
+            <span>#0066FF <span class="color-swatch" style="background:#0066ff"></span></span>
+          </div>
+          <div class="spec-item">
+            <span>Белый:</span>
+            <span>#FFFFFF <span class="color-swatch" style="background:#ffffff"></span></span>
+          </div>
+        </div>
+        
+        <div class="spec-card">
+          <h4>Форматы файлов</h4>
+          <div class="spec-item">
+            <span>Векторный:</span>
+            <span>SVG, AI, EPS</span>
+          </div>
+          <div class="spec-item">
+            <span>Растровый:</span>
+            <span>PNG (прозрачный)</span>
+          </div>
+          <div class="spec-item">
+            <span>Минимальный размер:</span>
+            <span>120px по ширине</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2024 eldar.marketing — Варианты логотипа</p>
+    </footer>
+  </div>
+</body>
+</html>

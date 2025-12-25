@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 64" fill="none">
+  <defs>
+    <linearGradient id="gold67" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#d97706"/>
+    </linearGradient>
+    <radialGradient id="orb67" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="60%" style="stop-color:#78350f"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </radialGradient>
+  </defs>
+  <!-- ELDAR -->
+  <text x="12" y="42" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" letter-spacing="2" fill="url(#gold67)">eldar</text>
+  <!-- Орбиты вокруг точки -->
+  <ellipse cx="148" cy="32" rx="35" ry="14" stroke="#fbbf24" stroke-width="1.5" fill="none" transform="rotate(-20, 148, 32)" opacity="0.4"/>
+  <ellipse cx="148" cy="32" rx="35" ry="14" stroke="#d97706" stroke-width="1.5" fill="none" transform="rotate(20, 148, 32)" opacity="0.4"/>
+  <!-- Точка -->
+  <circle cx="148" cy="32" r="10" fill="url(#orb67)"/>
+  <!-- Частицы на орбитах -->
+  <circle cx="115" cy="24" r="3" fill="#fbbf24"/>
+  <circle cx="180" cy="40" r="3" fill="#d97706"/>
+  <!-- MARKETING -->
+  <text x="195" y="42" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" letter-spacing="1" fill="#ffffff">marketing</text>
+</svg>

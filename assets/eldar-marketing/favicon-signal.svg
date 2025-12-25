@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Фавиконка: Концепция 1 SIGNAL -->
+  <rect width="32" height="32" rx="6" fill="#1a1a2e"/>
+  <g transform="translate(6, 6)">
+    <rect x="0" y="0" width="2.5" height="20" fill="#ffffff"/>
+    <rect x="2.5" y="0" width="10" height="2.5" fill="#ffffff"/>
+    <rect x="2.5" y="8.75" width="8" height="2.5" fill="#ffffff"/>
+    <rect x="2.5" y="17.5" width="10" height="2.5" fill="#ffffff"/>
+    <circle cx="16" cy="10" r="3" fill="#0066ff"/>
+  </g>
+</svg>

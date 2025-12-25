@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Аватар для соцсетей: Концепция 1 SIGNAL -->
+  <rect width="400" height="400" fill="#1a1a2e"/>
+  <g transform="translate(120, 120)">
+    <rect x="0" y="0" width="16" height="160" fill="#ffffff"/>
+    <rect x="16" y="0" width="80" height="16" fill="#ffffff"/>
+    <rect x="16" y="72" width="64" height="16" fill="#ffffff"/>
+    <rect x="16" y="144" width="80" height="16" fill="#ffffff"/>
+    <circle cx="120" cy="80" r="20" fill="#0066ff"/>
+  </g>
+</svg>

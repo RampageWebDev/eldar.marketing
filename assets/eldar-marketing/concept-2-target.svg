@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+  <!-- Концепция 2: TARGET — Точность и стратегия -->
+  <!-- Идея: минималистичная мишень с точкой в центре — попадание в цель, результат, стратегическое мышление -->
+  
+  <!-- Знак: концентрические круги + точка -->
+  <g transform="translate(50, 50)">
+    <!-- Внешний круг -->
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#1a1a2e" stroke-width="2.5"/>
+    <!-- Внутренний круг -->
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+    <!-- Центральная точка — акцент -->
+    <circle cx="0" cy="0" r="5" fill="#0066ff"/>
+  </g>
+  
+  <!-- Текст -->
+  <text x="95" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#1a1a2e" letter-spacing="-0.5">eldar</text>
+  <text x="163" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#0066ff" letter-spacing="-0.5">.</text>
+  <text x="173" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#1a1a2e" letter-spacing="-0.5">marketing</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+  <!-- Монохромная версия: SIGNAL — белый -->
+  <g transform="translate(20, 20)">
+    <rect x="0" y="0" width="4" height="60" fill="#ffffff"/>
+    <rect x="4" y="0" width="28" height="4" fill="#ffffff"/>
+    <rect x="4" y="28" width="22" height="4" fill="#ffffff"/>
+    <rect x="4" y="56" width="28" height="4" fill="#ffffff"/>
+    <circle cx="38" cy="30" r="5" fill="#ffffff"/>
+  </g>
+  <text x="85" y="58" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="-0.5">eldar.marketing</text>
+</svg>

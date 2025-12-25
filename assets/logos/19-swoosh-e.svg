@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 56" fill="none">
+  <defs>
+    <linearGradient id="gold19" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#b45309"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4, 6)">
+    <!-- Буква E премиум -->
+    <path d="M10 8 L10 36 L30 36 L30 31 L17 31 L17 24 L28 24 L28 20 L17 20 L17 13 L30 13 L30 8 Z" fill="#0a0a0a" stroke="url(#gold19)" stroke-width="2"/>
+    <!-- Динамичный свуш -->
+    <path d="M2 40 Q24 30 34 22 Q44 14 54 8" stroke="url(#gold19)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="54" cy="8" r="4" fill="#fbbf24"/>
+  </g>
+  <text x="70" y="38" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" letter-spacing="1">
+    <tspan fill="#fbbf24">eldar</tspan><tspan fill="#d97706">.</tspan><tspan fill="#ffffff">marketing</tspan>
+  </text>
+</svg>

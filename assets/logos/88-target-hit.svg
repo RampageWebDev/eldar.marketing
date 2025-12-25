@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 56" fill="none">
+  <defs>
+    <linearGradient id="g88" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#b91c1c"/>
+    </linearGradient>
+    <radialGradient id="target88" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#b45309"/>
+    </radialGradient>
+  </defs>
+  <!-- ELDAR красный (агрессия) -->
+  <text x="12" y="38" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" letter-spacing="1" fill="url(#g88)">eldar</text>
+  <!-- Стрела -->
+  <line x1="90" y1="28" x2="130" y2="28" stroke="url(#g88)" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="130,28 120,22 120,34" fill="#ef4444"/>
+  <!-- Мишень -->
+  <circle cx="150" cy="28" r="16" stroke="#fbbf24" stroke-width="2" fill="none"/>
+  <circle cx="150" cy="28" r="10" stroke="#f59e0b" stroke-width="2" fill="none"/>
+  <circle cx="150" cy="28" r="5" fill="url(#target88)"/>
+  <!-- MARKETING -->
+  <text x="182" y="38" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" letter-spacing="1" fill="#ffffff">marketing</text>
+</svg>
